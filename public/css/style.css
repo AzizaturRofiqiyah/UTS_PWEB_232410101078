@@ -1,0 +1,103 @@
+/* style untuk login */
+body {
+    background: url('https://i.pinimg.com/736x/48/ae/4b/48ae4b7572b9d8df2df06a161f5794b6.jpg');
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 2rem;
+    padding-bottom: 3rem;
+}
+
+.form-control {
+    border-radius: 20px;
+}
+
+.btn-dark {
+    border-radius: 20px;
+}
+
+/* style buat dashboard */
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.table {
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.table-dark th {
+    background-color: #343a40;
+    color: white;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+    color: white;
+    text-align: center;
+
+}
+
+/* khususon pengelolaan */
+.table td input[type="number"] {
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 80px;
+    margin: auto;
+}
+
+.btn-success {
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+
+/* yang admin admin aja */
+.profil-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    color: #333;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.profil-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #0d6efd;
+    margin-bottom: 15px;
+}
+
+.profile-card h3 {
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+.profil-card p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+}
+
